@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>丁苗的博客</title><meta name="description" content="个人学习网站，基于vuePress+gitHub_pages">
+    <link rel="preload" href="/test_vuepress_pages/assets/style-B-P_oOIL.css" as="style"><link rel="stylesheet" href="/test_vuepress_pages/assets/style-B-P_oOIL.css">
+    <link rel="modulepreload" href="/test_vuepress_pages/assets/app-DEJ3BKcF.js"><link rel="modulepreload" href="/test_vuepress_pages/assets/404.html-Cl5N194q.js">
+    <link rel="prefetch" href="/test_vuepress_pages/assets/index.html-BHRq9tAi.js" as="script"><link rel="prefetch" href="/test_vuepress_pages/assets/learn_git.html-Qdpdr8md.js" as="script"><link rel="prefetch" href="/test_vuepress_pages/assets/test_vite_vue3.html-CyN9kfmE.js" as="script"><link rel="prefetch" href="/test_vuepress_pages/assets/problem.html-D96ABwN6.js" as="script"><link rel="prefetch" href="/test_vuepress_pages/assets/learn_export.html-D22anXY7.js" as="script"><link rel="prefetch" href="/test_vuepress_pages/assets/learn_vue_router.html-CWWGHdme.js" as="script"><link rel="prefetch" href="/test_vuepress_pages/assets/learn_vuex.html-B-ZP9xZ2.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-463c2c5d><main class="page" data-v-463c2c5d><div class="theme-default-content" vp-content data-v-463c2c5d><h1 data-v-463c2c5d>404</h1><blockquote data-v-463c2c5d>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/test_vuepress_pages/" data-v-463c2c5d>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/test_vuepress_pages/assets/app-DEJ3BKcF.js" defer></script>
+  </body>
+</html>
