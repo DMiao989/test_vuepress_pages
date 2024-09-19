@@ -14,7 +14,6 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
     // subSidebar: 'auto',
-    sidebarDepth:1,
     navbar: [
       { text: '首页', link: '/' },
       {

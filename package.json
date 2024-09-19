@@ -11,11 +11,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.15",
-    "@vuepress/theme-default": "^2.0.0-rc.42",
-    "vuepress": "^2.0.0-rc.15"
-  },
-  "dependencies": {
-    "vuepress-theme-reco": "^1.6.17"
+    "@vuepress/bundler-vite": "^2.0.0-rc.7",
+    "vue": "^3.4.0",
+    "vuepress": "^2.0.0-rc.7"
   }
 }
