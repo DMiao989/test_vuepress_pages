@@ -5,6 +5,9 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   title: '丁苗的博客',
   description: '个人学习网站，基于vuePress+gitHub_pages',
+  head: [
+    ['link', { rel: 'icon', href: './img/logo.png' }]
+  ],
   base: '/test_vuepress_pages/',
   locales: {
     '/': {
